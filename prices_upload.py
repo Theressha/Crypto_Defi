@@ -1,3 +1,4 @@
+#Import packages
 import requests
 
 def fetch_crypto_prices():
