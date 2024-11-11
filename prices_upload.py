@@ -1,6 +1,6 @@
 #Import packages
 import requests
-
+#Method for fetch crypto
 def fetch_crypto_prices():
     url = "https://api.coingecko.com/api/v3/coins/markets"
     parameters = {
