@@ -10,7 +10,7 @@ def fetch_crypto_prices():
         'page': 1,
         'sparkline': 'false'
     }
-    
+    #call request
     try:
         response = requests.get(url, params=parameters)
         response.raise_for_status()  # Raise error if the request fails
