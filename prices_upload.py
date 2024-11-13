@@ -25,4 +25,5 @@ def fetch_crypto_prices():
     except requests.RequestException as e:
         print("Error fetching cryptocurrency data:", e)
 
+#fech prices
 fetch_crypto_prices()
