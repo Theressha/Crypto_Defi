@@ -16,7 +16,7 @@ def fetch_crypto_prices():
         response.raise_for_status()  # Raise error if the request fails
         data = response.json()
         
-        print("Top 10 Cryptocurrencies:")
+        print("The top 10 Cryptocurrencies:")
         for coin in data:
             name = coin['name']
             symbol = coin['symbol'].upper()
