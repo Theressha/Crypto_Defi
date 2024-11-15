@@ -3,6 +3,7 @@ import requests
 #Method for fetch crypto
 def fetch_crypto_prices():
     url = "https://api.coingecko.com/api/v3/coins/markets"
+    #fill parameters
     parameters = {
         'vs_currency': 'usd',  # Convert to USD
         'order': 'market_cap_desc',  # Order by market cap
