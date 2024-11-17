@@ -1,9 +1,9 @@
 # Import packages
-import requests
+import requests  
 import tkinter as tk
 from tkinter import messagebox
 
-# Method to fetch crypto prices
+# Method to fetch crypto prices from coingecko
 def fetch_crypto_prices():
     url = "https://api.coingecko.com/api/v3/coins/markets"
     # Fill parameters
