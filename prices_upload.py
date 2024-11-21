@@ -21,7 +21,7 @@ def fetch_crypto_prices():
         response.raise_for_status()  # Raise error if the request fails
         data = response.json()
         
-        # Display in a message box
+        # Display in a message box all information
         prices = "The top 10 Cryptocurrencies:\n"
         for coin in data:
             name = coin['name']
