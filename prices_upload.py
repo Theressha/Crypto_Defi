@@ -1,6 +1,7 @@
 # Import packages
 import requests  
 import tkinter as tk  #gui packages
+from tkinter import ttk
 from tkinter import messagebox
 #define routines
 # Method to fetch crypto prices from coingecko
@@ -38,7 +39,7 @@ root = tk.Tk()
 root.title("Crypto Price Fetcher")
 
 # Add a button
-fetch_button = tk.Button(root, text="Fetch Crypto Prices", command=fetch_crypto_prices)
+fetch_button = ttk.Button(root, text="Fetch Crypto Prices", command=fetch_crypto_prices, style="TButton")
 fetch_button.pack(pady=20)
 
 # Run the GUI loop
