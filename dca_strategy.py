@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import time
 
-# Function to fetch Bitcoin prices from a public API
+# Function to fetch Bitcoin prices from a public API. DCA strategy
 def fetch_bitcoin_price():
     try:
         response = requests.get("https://api.coindesk.com/v1/bpi/currentprice/BTC.json")
