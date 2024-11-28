@@ -35,7 +35,7 @@ def simulate_dca(total_investment, interval_in_days, months):
             print(f"[{date.date()}] Failed to fetch price. Skipping investment.")
         time.sleep(1)  # Wait to avoid hitting API limits (can be adjusted)
 
-    print("\nSimulation complete.")
+    print("\nSimulation complete")
     print(f"Total BTC owned: {bitcoin_owned:.6f}")
     print(f"Total spent: ${total_spent:.2f}")
     print(f"Average cost per BTC: ${total_spent / bitcoin_owned:.2f if bitcoin_owned > 0 else 'N/A'}")
