@@ -2,6 +2,7 @@
 import requests
 #pandas package
 import pandas as pd
+#time package
 import time
 
 # Function to fetch Bitcoin prices from a public API. DCA strategy
@@ -13,6 +14,17 @@ def fetch_bitcoin_price():
     except Exception as e:
         print("Error fetching Bitcoin price:", e)
         return None
+
+# Function to fetch Bitcoin prices from a public API. DCA strategy
+def fetch_bitcoin_price_new():
+    try:
+        response = requests.get("https://api.coindesk.com/v2/bpi/currentprice/BTC.json")
+        data = response.json()
+        return float(data['bpi']['USD']['rate'].replace(',', ''))  # Price in USD
+    except Exception as e:
+        print("Error fetching Bitcoin price:", e)
+        return None
+
 
 # Simulate Dollar-Cost Averaging (DCA)
 def simulate_dca(total_investment, interval_in_days, months):
