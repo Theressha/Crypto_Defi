@@ -1,7 +1,7 @@
 # Import packages
 import requests  
 import tkinter as tk  #gui packages
-from tkinter import ttk
+from tkinter import ttk #gui expert
 from tkinter import messagebox
 #define routines
 # Method to fetch crypto prices from coingecko
