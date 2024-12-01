@@ -1,5 +1,5 @@
 # Import packages
-import requests  
+import requests  #requests package
 import tkinter as tk  #gui packages
 from tkinter import ttk #gui expert
 from tkinter import messagebox
