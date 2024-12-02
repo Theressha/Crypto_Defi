@@ -1,4 +1,4 @@
-#import packages
+#import packages for DCA strategy
 import requests
 #pandas package
 import pandas as pd
