@@ -3,6 +3,7 @@ import requests  #requests package
 import tkinter as tk  #gui packages install
 from tkinter import ttk #gui expert
 from tkinter import messagebox
+import pandas as pd
 #define routines
 # Method to fetch crypto prices from coingecko
 def fetch_crypto_prices():
