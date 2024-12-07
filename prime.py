@@ -1,5 +1,6 @@
 # Program to check if a number is prime or not
 
+#number to confirm it's prime
 num = 29
 
 # To take input from the user
