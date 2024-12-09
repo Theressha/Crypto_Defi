@@ -1,7 +1,7 @@
 # Program to check if a number is prime or not
 
 #number to confirm it's prime
-num = 29
+num = 40
 
 # To take input from the user
 #num = int(input("Enter a number: "))
