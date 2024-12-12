@@ -1,3 +1,11 @@
+"""
+This script demonstrates basic Python functionality, including:
+- Greeting a user with a personalized message.
+- Calculating the sum of two numbers provided by the user.
+- Finding the maximum value from a list of numbers provided by the user.
+
+The script guides the user through input prompts and provides appropriate feedback and error handling.
+"""
 import random
 
 def greet_user(name):
