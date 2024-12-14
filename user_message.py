@@ -9,6 +9,7 @@ The script guides the user through input prompts and provides appropriate feedba
 "import packages
 import random
 
+"great the user
 def greet_user(name):
     """Greet the user with a personalized message."""
     greetings = ["Hello", "Hi", "Hey", "Welcome", "Greetings"]
