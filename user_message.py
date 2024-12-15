@@ -6,7 +6,7 @@ This script demonstrates basic Python functionality, including:
 
 The script guides the user through input prompts and provides appropriate feedback and error handling.
 """
-"import packages
+"import packages randon
 import random
 
 "great the user
