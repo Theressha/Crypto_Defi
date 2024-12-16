@@ -1,4 +1,4 @@
-# Import packages
+# Import packages requests
 import requests  #requests package
 import tkinter as tk  #gui packages install
 from tkinter import ttk #gui expert
