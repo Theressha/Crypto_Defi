@@ -1,6 +1,6 @@
 #import packages for DCA strategy
 import requests
-#pandas package
+#pandas package for pandas
 import pandas as pd
 #time package
 import time
