@@ -1,7 +1,7 @@
 # Program to check if a number is prime or not
 
 
-# To take input from the user
+# To take input from the user. The number to calculate
 num = int(input("Enter a number: "))
 
 # define a flag variable as false
