@@ -1,6 +1,5 @@
 # Open and close Brave profiles and navigate automatically 
 #To get cursor position execute in a new terminal:
-# python
 # import pyautogui
 # pyautogui.displayMousePosition()
 # pantalla Sony Bravia
