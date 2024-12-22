@@ -1,10 +1,11 @@
 # Open and close Brave profiles and navigate automatically 
-#To get cursor position execute in a new terminal:
+# To get cursor position execute in a new terminal:
 # import pyautogui
 # pyautogui.displayMousePosition()
 # pantalla Sony Bravia
 # Resolució: 1360x768
 # Lletra: 100%
+# This bot plays pinball game
 import pyautogui as o_bot
 import time
 import sys
