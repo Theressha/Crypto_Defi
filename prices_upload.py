@@ -7,7 +7,7 @@ import pandas as pd
 #define routines
 # Method to fetch crypto prices from coingecko
 def fetch_crypto_prices():
-    #url for the api
+    #url for the coingecko api
     url = "https://api.coingecko.com/api/v3/coins/markets"
     # Fill parameters
     parameters = {
