@@ -2,7 +2,7 @@
 
 
 # To take input from the user. The number to calculate
-num = int(input("Enter a number: "))
+numeric = int(input("Enter a number: "))
 
 # define a flag variable as false
 flag = False
