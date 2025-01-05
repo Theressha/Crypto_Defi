@@ -1,5 +1,3 @@
-# Program to check if a number is prime or not
-
 
 # To take input from the user. The number to calculate
 numeric = int(input("Enter a number: "))
