@@ -16,8 +16,6 @@ def f_open(d_pos, d_click=1):
 left = 551, 680
 right = 776, 660
 try:
-
-
     time.sleep(3)
     o_bot.moveTo(right)
     time.sleep(1)
