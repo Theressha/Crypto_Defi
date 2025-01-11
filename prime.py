@@ -1,5 +1,5 @@
 
-# To take input from the user. The number to calculate
+# To take input from the user. The number to calculate. Prime numbers
 numeric = int(input("Enter a number: "))
 
 # define a flag variable as false
