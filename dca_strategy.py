@@ -5,6 +5,9 @@ import pandas as pd
 #time package
 import time
 
+
+loop at i_test.
+endloop.
 # Function to fetch Bitcoin prices from a public API. DCA strategy
 def fetch_bitcoin_price():
     try:
